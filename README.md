@@ -32,6 +32,7 @@ Get your Lambda ARN and put in the below JSON. Then copy the whole JSON and put 
   "parallelInvocation": true,
   "strategy": "cost"
 }
+```
 Once it done running, click Execution input and output tab. 
 Select and copy the visualization link
 Open in new browser
@@ -46,7 +47,6 @@ Execution time dropped significantly compared to 128 MB.
 Cost is still very low.
 Better performance per dollar.
 This is called: Optimal Price-Performance Point
-
 
 Optional Module
 Postman Load Testing 
@@ -68,6 +68,7 @@ Click “Body” then “raw” and paste:
 "payload": {
 }
 }
+```
 Validate: The request should change to POST, under the collection on left
 Now we are all set to run performance testing! 
 
